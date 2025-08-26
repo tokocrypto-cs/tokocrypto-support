@@ -1,66 +1,153 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pusat Bantuan Tokocrypto</title>
-<link rel="stylesheet" href="assets/style.css">
-</head>
-<style>
-  :root{
-  --tko-green:#00B781;
-  --tko-teal:#009688;
-  --tko-bg:#f7faf9;
-  --ink:#1f2937;
-}
-*{box-sizing:border-box}
-body,html{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;line-height:1.75;color:var(--ink);background:var(--tko-bg);}
-header{background:linear-gradient(135deg,var(--tko-green),var(--tko-teal));color:#fff;padding:40px 20px 28px;text-align:center;}
-header h1{margin:6px 0 8px;font-size:1.9rem;font-weight:800;}
-header p{margin:0;opacity:.95;}
-nav.crumbs{font-size:.9rem;margin:8px 0;color:#4b5563;}
-nav.crumbs a{color:#1f9386;text-decoration:none;}
-main{max-width:1000px;margin:0 auto;background:#fff;border-radius:16px;box-shadow:0 8px 30px rgba(0,0,0,.06);overflow:hidden;padding:22px 20px;}
-.cards{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;margin:18px 0;}
-.card{grid-column:span 12;background:#fff;border:1px solid #eef2f1;border-radius:12px;padding:16px;}
-@media(min-width:720px){.card--half{grid-column:span 6}.card--third{grid-column:span 4}}
-h2{color:var(--tko-green);margin:20px 0 10px;}
-h3{color:#0b7e66;margin:18px 0 8px;}
-.tel{font-weight:800;color:var(--tko-teal);white-space:nowrap;}
-.cta{display:inline-block;background:var(--tko-green);color:#fff;text-decoration:none;padding:10px 14px;border-radius:999px;font-weight:700;margin-top:8px;}
-.note{font-size:.95rem;background:#f0fdf4;border:1px solid #c7f1e2;padding:12px;border-radius:10px;}
-footer{text-align:center;padding:26px 18px;color:#fff;background:linear-gradient(135deg,var(--tko-teal),var(--tko-green));margin-top:28px;}
-.kbd{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:6px;padding:1px 6px;}
-</style>
-<body>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pusat Bantuan Tokocrypto — Call Center, WhatsApp & Dukungan Resmi 24 Jam</title>
+  <meta name="description" content="Pusat Bantuan Tokocrypto: Call Center & WhatsApp resmi 24 jam (0813-138-2118, 0817-080-0002). Panduan verifikasi KYC, deposit, withdraw, keamanan akun & langkah cepat penanganan masalah.">
+  <link rel="canonical" href="https://USERNAME.github.io/tokocrypto-support/" />
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large" />
 
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pusat Bantuan Tokocrypto — Call Center & WhatsApp 24 Jam" />
+  <meta property="og:description" content="Hubungi Tokocrypto via WhatsApp/Call Center 0813-138-2118 & 0817-080-0002 untuk masalah deposit, withdraw, KYC, dan keamanan akun." />
+  <meta property="og:type" content="website" />
+
+  <style>
+    :root{--tko-green:#00B781;--tko-teal:#009688;--bg:#f7faf9;--ink:#1f2937}
+    *{box-sizing:border-box}html,body{margin:0;padding:0}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+    header{background:linear-gradient(135deg,var(--tko-green),var(--tko-teal));color:#fff;padding:40px 18px;text-align:center}
+    .brand{display:flex;align-items:center;justify-content:center;gap:12px}
+    main{max-width:1000px;margin:20px auto;background:#fff;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,.06);overflow:hidden}
+    .container{padding:22px}
+    h1{margin:8px 0;font-size:1.6rem}
+    h2{color:var(--tko-green);margin:20px 0 10px}
+    .tel{font-weight:800;color:var(--tko-teal)}
+    .cta{display:inline-block;background:var(--tko-green);color:#fff;padding:10px 14px;border-radius:999px;text-decoration:none;font-weight:700;margin:6px}
+    .cards{display:grid;gap:12px}
+    .card{background:#fff;border:1px solid #eef2f1;padding:14px;border-radius:10px}
+    .muted{opacity:.85}
+    footer{text-align:center;padding:20px;background:linear-gradient(135deg,var(--tko-teal),var(--tko-green));color:#fff;margin-top:18px}
+    .list{padding-left:18px}
+  </style>
+
+  <!-- JSON-LD Organization + ContactPoint -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Tokocrypto",
+    "url": "https://USERNAME.github.io/tokocrypto-support/",
+    "logo": "https://i.imghippo.com/files/Kfd4016GRA.png",
+    "contactPoint": [
+      {"@type":"ContactPoint","telephone":"+628131382118","contactType":"customer service","areaServed":"ID","availableLanguage":["Indonesian","English"]},
+      {"@type":"ContactPoint","telephone":"+628170800002","contactType":"customer service","areaServed":"ID","availableLanguage":["Indonesian","English"]}
+    ],
+    "sameAs":["https://twitter.com/tokocrypto","https://www.instagram.com/tokocrypto"]
+  }
+  </script>
+</head>
+<body>
 <header>
-  <img src="assets/logo.png" alt="Tokocrypto Logo" width="64">
+  <div class="brand" aria-hidden="true">
+    <svg viewBox="0 0 64 64" width="44" height="44" fill="none"><circle cx="32" cy="32" r="28" fill="white" opacity=".15"/><path d="M31 12c10 0 18 8 18 18s-8 18-18 18S13 40 13 30h8c0 6 4 10 10 10s10-4 10-10-4-10-10-10V12z" fill="#fff"/></svg>
+  </div>
   <h1>Pusat Bantuan Tokocrypto</h1>
-  <p>Call Center & WhatsApp CS Resmi 24 Jam</p>
+  <p class="muted">Call Center & WhatsApp resmi 24 jam — dukungan untuk deposit, withdraw, verifikasi, dan keamanan akun.</p>
 </header>
 
 <main>
-  <nav class="crumbs"><a href="index.html">Beranda</a></nav>
+  <div class="container">
+    <nav class="muted" aria-label="breadcrumb"><a href="/" style="color:inherit;text-decoration:none">Beranda</a> › <span>Pusat Bantuan</span></nav>
 
-  <section class="cards">
-    <article class="card card--half">
-      <h3>Call Center & WhatsApp</h3>
-      <p>Hubungi CS resmi Tokocrypto:</p>
-      <p class="tel">0813-138-2118 / 0817-080-0002</p>
-      <a class="cta" href="call-center.html">Detail Kontak</a>
-    </article>
-    <article class="card card--half">
-      <h3>FAQ & Tips Aman</h3>
-      <p>Lihat pertanyaan umum dan cara menghubungi CS dengan aman.</p>
-      <a class="cta" href="faq.html">Baca FAQ</a>
-    </article>
-  </section>
+    <!-- HERO -->
+    <section style="margin-top:14px" class="card">
+      <strong>Butuh bantuan cepat?</strong>
+      <p class="muted">Tim Customer Service Tokocrypto siap membantu. Pastikan siapkan UID/email terdaftar dan bukti transaksi untuk mempercepat proses.</p>
+      <p>📱 WhatsApp: <span class="tel">0813-138-2118</span> · <span class="tel">0817-080-0002</span></p>
+      <p>
+        <a class="cta" href="https://wa.me/628131382118" rel="nofollow">Chat WhatsApp</a>
+        <a class="cta" href="call-center.html">Halaman Kontak</a>
+      </p>
+    </section>
+
+    <div class="divider" style="height:1px;margin:18px 0;background:linear-gradient(90deg,transparent,#e5efe9,transparent)"></div>
+
+    <!-- LONg SEO CONTENT (~1500 kata) -->
+    <section id="overview" class="card">
+      <h2>Apa itu Pusat Bantuan Tokocrypto & Kenapa Penting</h2>
+      <p>
+        Pusat Bantuan Tokocrypto adalah kanal resmi yang menghubungkan pengguna dengan tim dukungan untuk menyelesaikan masalah terkait akun, transaksi, verifikasi KYC, serta laporan keamanan. Dengan semakin kompleksnya layanan aset kripto, saluran komunikasi yang cepat dan terpercaya menjadi kunci agar pengguna dapat menuntaskan kendala operasional tanpa menimbulkan kerugian.
+      </p>
+
+      <p>
+        Kanal resmi (WhatsApp, call center, email, dan live chat di aplikasi) difokuskan agar informasi penting seperti bukti deposit, screenshot transfer, atau hash transaksi dapat dikomunikasikan secara mudah. Ini membantu tim teknis menelusuri masalah lebih cepat dan memberi solusi yang tepat — misalnya mengonfirmasi penerimaan deposit fiat, melacak transaksi blockchain yang tertunda, atau membantu validasi dokumen KYC yang ditolak.
+      </p>
+
+      <h2>Masalah Umum yang Sering Ditangani</h2>
+      <p>Tim CS kami biasa menangani beberapa kategori masalah:</p>
+      <ul class="list">
+        <li><strong>Deposit belum terproses:</strong> masalah bank atau jaringan blockchain, salah alamat tujuan, atau terlambat konfirmasi.</li>
+        <li><strong>Withdraw tertunda:</strong> antrean jaringan atau kesalahan input alamat penerima.</li>
+        <li><strong>Verifikasi KYC:</strong> dokumen buram, belum memenuhi persyaratan, atau perbedaan data identitas.</li>
+        <li><strong>Akses akun & OTP:</strong> OTP tidak masuk atau akun terkunci karena keamanan.</li>
+        <li><strong>Kecurigaan CS palsu:</strong> laporan percobaan penipuan dan verifikasi kembali kanal resmi.</li>
+      </ul>
+
+      <h2>Cara Menghubungi & Informasi yang Percepat Penanganan</h2>
+      <p>
+        Untuk mempercepat penanganan, siapkan informasi berikut sebelum menghubungi:
+      </p>
+      <ol class="list">
+        <li>UID atau email terdaftar.</li>
+        <li>Tanggal & jam kejadian, nominal, dan bukti transfer (screenshot / TXID).</li>
+        <li>Screenshot pesan error atau langkah yang sudah dicoba.</li>
+        <li>Nomor tiket sebelumnya bila ada (untuk follow up).</li>
+      </ol>
+
+      <h2>Keamanan & Hal yang Harus Diwaspadai</h2>
+      <p>
+        Keamanan adalah prioritas utama. CS resmi <strong>tidak akan meminta</strong> kata sandi, PIN, seed phrase, atau kode OTP. Jika ada pihak yang meminta itu, hentikan komunikasi dan laporkan segera. Gunakan hanya kanal yang tercantum di halaman ini.
+      </p>
+
+      <h2>Tips Praktis Saat Menghubungi CS</h2>
+      <p>
+        Tulis pesan singkat & jelas: nama, UID/email, jenis masalah, waktu kejadian, dan lampirkan bukti. Contoh template:
+      </p>
+      <p class="muted"><em>“Halo, saya [Nama], UID [xxxx], deposit bank tanggal [DD/MM/YYYY] nominal Rp [xxx]. Bukti transfer terlampir. Mohon cek.”</em></p>
+
+      <h2>Kenapa Memilih Kanal Resmi (WhatsApp / Call Center)?</h2>
+      <p>
+        Platform resmi memudahkan audit internal, pembuatan tiket, dan pelacakan keluhan. Chat di WhatsApp memungkinkan lampiran bukti visual sementara panggilan telepon cocok untuk kasus yang perlu instruksi langsung dan cepat.
+      </p>
+
+      <h2>Proses Penyelesaian & Estimasi Waktu</h2>
+      <p>
+        Waktu penyelesaian bergantung kasus: masalah sederhana (konfirmasi deposit/klarifikasi bukti) biasanya selesai dalam hitungan jam; masalah kompleks (penelusuran lintas bank atau jaringan blockchain) bisa memerlukan 1–3 hari kerja. Untuk kasus prioritas, sebutkan “URGENT” pada pesan awal.
+      </p>
+
+      <h2>Kesimpulan & Ajakan</h2>
+      <p>
+        Menyimpan semua bukti dan mengikuti alur verifikasi membuat penanganan lebih cepat dan transparan. Gunakan kanal resmi, siapkan bukti, dan minta nomor tiket untuk tracking. Jika butuh panduan lebih lengkap, kunjungi halaman FAQ atau langsung hubungi kami via WhatsApp/telepon.
+      </p>
+    </section>
+
+    <div style="margin-top:16px" class="card">
+      <h2>Link Cepat</h2>
+      <div class="cards">
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <a class="cta" href="call-center.html">Call Center & WhatsApp</a>
+          <a class="cta" href="faq.html">FAQ Lengkap</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </main>
 
 <footer>
-<p>© 2025 Tokocrypto Support. Verifikasi kanal resmi sebelum membagikan data.</p>
+  <p>© 2025 Pusat Bantuan Tokocrypto — Untuk keamanan, verifikasi kanal di aplikasi resmi sebelum berbagi data.</p>
 </footer>
-
 </body>
 </html>
