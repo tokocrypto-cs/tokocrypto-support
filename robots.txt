@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pusat-bantuan-tokocrypto.vercel.app/sitemap.xml
+Sitemap: https://pusat-bantuan-tokocrypto-layanan.vercel.app/sitemap.xml
